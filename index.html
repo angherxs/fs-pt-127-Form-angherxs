@@ -35,13 +35,13 @@
                         </div>
                         <div class="col-md-2">
                             <label for="exampleInputPassword1" class="form-label">CVC#</label>
-                            <input type="password" class="form-control" id="exampleInputPassword1">
+                            <input type="email" class="form-control" id="exampleInputPassword1">
                         </div>
                         <div class="col-md-4">
                             <label for="exampleInputPassword1" class="form-label">Amount</label>
                             <div class="input-group">
                                 <span><b>$</b></span>
-                                <input type="password" class="form-control" id="exampleInputPassword1">
+                                <input type="email" class="form-control" id="exampleInputPassword1">
                             </div>
                         </div>
                     </div>
@@ -54,7 +54,7 @@
                         </div>
 
                         <div class="col-md-6">
-                            <label for="exampleInputPassword1" class="form-label">Firt name</label>
+                            <label for="exampleInputEmail1" class="form-label" class="form-label">Firt name</label>
                             <input type="password" class="form-control" id="exampleInputPassword1">
                         </div>
                     </div>
@@ -64,21 +64,25 @@
                     </div>
                     <div class="row">
                         <div class=" col-md-6">
-                            <label for="exampleInputEmail1" class="form-label">City</label>
-                            <input type="number" class="form-control" id="exampleInputEmail1"
+                           <label for="exampleInputEmail1" class="form-label">City</label>
+                            <input type="email" class="form-control" id="exampleInputEmail1"
                                 aria-describedby="emailHelp">
                             <div id="emailHelp" class="form-text"></div>
                         </div>
                         <div class="col-md-3">
-                            <label for="exampleInputPassword1" class="form-label">State</label>
-                            <input type="password" placeholder="Pick a State" class="form-control"
-                                id="exampleInputPassword1">
+                            <label ffor="exampleInputEmail1" class="form-label"  class="form-label">State</label>
+                            <select class="form-select" aria-label="Default select example">
+                                <option selected>Open this select menu</option>
+                                <option value="1">Caracas</option>
+                                <option value="2">Valencia</option>
+                                <option value="3">Margarita</option>
+                            </select>
                         </div>
                         <div class="col-md-3">
-                            <label for="exampleInputPassword1" class="form-label">Postal code</label>
+                            <label for="exampleInputEmail1"  class="form-label">Postal code</label>
                             <div class="input-group">
 
-                                <input type="password" class="form-control" id="exampleInputPassword1">
+                                <input type="email" class="form-control" id="exampleInputPassword1">
                             </div>
                         </div>
                     </div>
@@ -109,10 +113,11 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="col-md-6  form-floating">
-                            <textarea class="form-control" placeholder="Leave a comment here" id="floatingTextarea2"
-                                style="height: 100px"></textarea>
-                            <label for="exampleInputEmail1" class="form-label">Message</label>
+                        <div class="mb-3 col-12 col-lg-6">
+                            <label for="exampleFormControlTextarea1" class="form-label">Message</label>
+                            <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"
+                                aria-describedby="messagebox"></textarea>
+                            <div id="messagebox" class="form-text">Add any notes here.</div>
                         </div>
                     </div>
                 </li>
